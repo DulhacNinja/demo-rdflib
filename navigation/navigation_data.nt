@@ -1,0 +1,6 @@
+<http://example.org/people/bob> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://example.org/people/bob> <http://xmlns.com/foaf/0.1/name> "Bob Smith" .
+<http://example.org/people/bob> <http://xmlns.com/foaf/0.1/age> "30" .
+<http://example.org/people/alice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://example.org/people/alice> <http://xmlns.com/foaf/0.1/name> "Alice Johnson" .
+<http://example.org/people/bob> <http://xmlns.com/foaf/0.1/knows> <http://example.org/people/alice> .

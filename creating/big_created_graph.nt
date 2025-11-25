@@ -1,0 +1,6 @@
+_:linda.jpeg <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://example.org/people/Bob> <http://xmlns.com/foaf/0.1/name> "Bob" .
+<http://example.org/people/Bob> <http://xmlns.com/foaf/0.1/age> "24"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/people/Bob> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://example.org/people/Bob> <http://xmlns.com/foaf/0.1/knows> _:linda.jpeg .
+_:linda.jpeg <http://xmlns.com/foaf/0.1/name> "Linda" .
